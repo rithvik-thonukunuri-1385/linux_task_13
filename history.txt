@@ -468,3 +468,15 @@
 : 1754483536:0;nvim input.txt
 : 1754483563:0;clear
 : 1754483571:0;nvim .
+: 1754483790:0;nvim shiftline.sh
+: 1754483793:0;nvim input.txt
+: 1754483807:0;./shiftline.sh input.txt output.txt 6
+: 1754483810:0;cat output.txt
+: 1754483815:0;./shiftline.sh input.txt output.txt 5
+: 1754483816:0;cat output.txt
+: 1754483843:0;nvim input.txt
+: 1754483851:0;./shiftline.sh input.txt output.txt 6
+: 1754483853:0;cat output.txt
+: 1754483867:0;./shiftline.sh input.txt output.txt 7
+: 1754483873:0;cat output.txt
+: 1754483896:0;clear
