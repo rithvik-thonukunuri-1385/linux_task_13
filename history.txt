@@ -459,3 +459,12 @@
 : 1754483194:0;ls
 : 1754483201:0;crontab -l
 : 1754483390:0;nvim cron.sh
+: 1754483411:0;cd ../task-12
+: 1754483414:0;cat output.txt
+: 1754483439:0;nvim .
+: 1754483472:0;./shiftline.sh input.txt output.txt 6
+: 1754483474:0;cat output.txt
+: 1754483480:0;nvim .
+: 1754483536:0;nvim input.txt
+: 1754483563:0;clear
+: 1754483571:0;nvim .
