@@ -480,3 +480,5 @@
 : 1754483867:0;./shiftline.sh input.txt output.txt 7
 : 1754483873:0;cat output.txt
 : 1754483896:0;clear
+: 1754484066:0;./shiftline.sh input.txt output.txt 8
+: 1754484068:0;clear
