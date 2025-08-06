@@ -1,0 +1,395 @@
+: 1754389166:0;ls
+: 1754389175:0;ssh-copy-id
+: 1754389164:0;ssh-copy-id -i ~/.ssh/id_rsa.pub -i rithvik_aws.pem ec2-user@34.207.201.65
+: 1754389198:0;cp ~/.ssh/id_rsa.pub ~/.ssh/id_rsa
+: 1754389200:0;ssh-copy-id -i ~/.ssh/id_rsa.pub -i rithvik_aws.pem ec2-user@34.207.201.65
+: 1754389244:0;cd .ssh
+: 1754389245:0;ls
+: 1754389252:0;rm -rf id_rsa*
+: 1754389253:0;ls
+: 1754389255:0;clear
+: 1754389256:0;ls
+: 1754389257:0;cd ../
+: 1754389258:0;clear
+: 1754389259:0;ls
+: 1754389847:0;ssh-keygen -t rsa -b 4096
+: 1754389854:0;clear
+: 1754389862:0;ls ./.ssh
+: 1754389864:0;clear
+: 1754390119:0;ssh-copy-id ec2-user@3.89.85.232
+: 1754390152:0;ssh -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754390217:0;clear
+: 1754390231:0;ssh-copy-id ec2-user@3.89.85.232
+: 1754390258:0;ssh ec2-user@3.89.85.232
+: 1754390276:0;ssh-copy-id -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754390293:0;ssh-copy-id -i .ssh/id_rsa.pub -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754390300:0;ssh-copy-id -i .ssh/id_rsa.pub  ec2-user@3.89.85.232
+: 1754390308:0;clear
+: 1754390460:0;ssh-copy-id -i .ssh/id_rsa.pub -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754390508:0;cat .ssh/id_rsa.pub
+: 1754390525:0;ssh -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754390655:0;clear
+: 1754390659:0;ssh ec2-user@3.89.85.232
+: 1754390735:0;ssh -v ec2-user@3.89.85.232
+: 1754390771:0;clear
+: 1754390786:0;ssh ec2-user@3.89.85.232
+: 1754390864:0;ssh -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754390936:0;ssh ec2-user@3.89.85.232
+: 1754390922:0;clear
+: 1754390957:0;cat .ssh/id_rsa.pub
+: 1754390977:0;ssh -i rithvik_aws.pem ec2-user@3.89.85.232
+: 1754391050:0;ssh ec2-user@3.89.85.232
+: 1754391203:0;exit
+: 1754397288:0;ssh -i rithvik_aws.pem ec2-user@13.216.247.56
+: 1754397309:0;ls
+: 1754397327:0;ssh -i rithvik_aws.pem ec2-user@13.216.247.56
+: 1754397345:0;ls -l
+: 1754397416:0;ssh -i "rithvik_aws.pem" ec2-user@ec2-13-216-247-56.compute-1.amazonaws.com
+: 1754397451:0;ssh ec2-user@13.216.247.56
+: 1754398582:0;cd .ssh
+: 1754398587:0;cd ../
+: 1754398608:0;ssh ec2-user@13.216.247.56
+: 1754398711:0;cd .ssh
+: 1754398712:0;ls
+: 1754399263:0;clear
+: 1754399422:0;cd .ssh
+: 1754399425:0;cat id_rsa
+: 1754399413:0;cat id_rsa.pub
+: 1754399421:0;clear
+: 1754399593:0;cd ../
+: 1754399599:0;ssh ec2-user@34.229.196.36
+: 1754399717:0;clear
+: 1754400366:0;ls
+: 1754400371:0;touch test
+: 1754400375:0;ls -l
+: 1754400384:0;chmod 100 test
+: 1754400386:0;ls -l
+: 1754400410:0;chmod 600 test
+: 1754400411:0;ls
+: 1754400413:0;ls -l
+: 1754400424:0;chmod +100 test
+: 1754400425:0;ls
+: 1754400427:0;ls -l
+: 1754400494:0;cd /
+: 1754400475:0;ls
+: 1754400486:0;ls -l
+: 1754400590:0;history -h
+: 1754400595:0;man history
+: 1754400668:0;clear
+: 1754400669:0;cd
+: 1754400670:0;clear
+: 1754400739:0;ls -l
+: 1754400771:0;alias ll = ls -l
+: 1754400799:0;ll
+: 1754459710:0;ls
+: 1754459714:0;nvim test
+: 1754459764:0;clear
+: 1754459993:0;crontab -e
+: 1754460090:0;clear
+: 1754460074:0;man crontab
+: 1754460282:0;clear
+: 1754460285:0;crontab -e
+: 1754460383:0;ls
+: 1754460540:0;cat cronout.txt
+: 1754460544:0;cat test
+: 1754460548:0;nvim test
+: 1754460563:0;clear
+: 1754460564:0;ls
+: 1754460566:0;cat cronout.txt
+: 1754460588:0;nvim shiftline.sh
+: 1754460610:0;ls -l
+: 1754460619:0;chmod +100 shiftline.sh
+: 1754460621:0;ls
+: 1754460622:0;ls -l
+: 1754460625:0;cat cronout.txt
+: 1754460629:0;crontab -e
+: 1754460636:0;rm cronout.txt
+: 1754460637:0;clear
+: 1754460640:0;ls -l
+: 1754460649:0;./shiftline.sh "rithvik"
+: 1754460651:0;clear
+: 1754460663:0;nvim shiftline.sh
+: 1754460676:0;./shiftline.sh test
+: 1754460679:0;clear
+: 1754460843:0;echo "hello" >> test
+: 1754460846:0;cat test
+: 1754460847:0;clear
+: 1754460876:0;man cut
+: 1754460880:0;cut -h
+: 1754460884:0;cut --help
+: 1754460921:0;cut -d "/n" test
+: 1754460928:0;cut -d "n" test
+: 1754461047:0;head -n 1 test
+: 1754461054:0;head -n 2 test
+: 1754461058:0;head -n 3 test
+: 1754461061:0;clear
+: 1754461243:0;nvim shiftline.sh
+: 1754461336:0;nano shiftline.sh
+: 1754461388:0;nano a.txt
+: 1754461400:0;ls
+: 1754461417:0;nvim shiftline.sh
+: 1754461467:0;./shiftline.sh test
+: 1754461522:0;wc -l test
+: 1754461530:0;wc -l rithvik_aws.pem
+: 1754461535:0;cat rithvik_aws.pem
+: 1754461540:0;clear
+: 1754461543:0;./shiftline.sh test
+: 1754461546:0;nvim shiftline.sh
+: 1754461591:0;./shiftline.sh test
+: 1754461597:0;nvim shiftline.sh
+: 1754461615:0;./shiftline.sh test
+: 1754461638:0;nvim shiftline.sh
+: 1754461654:0;./shiftline.sh test
+: 1754461661:0;wc -h
+: 1754461664:0;wc --help
+: 1754461675:0;history --help
+: 1754461678:0;history -help
+: 1754461682:0;history -h
+: 1754461687:0;history
+: 1754461689:0;clear
+: 1754461745:0;nvim shiftline.sh
+: 1754461754:0;./shiftline.sh test
+: 1754461755:0;clear
+: 1754461757:0;nvim shiftline.sh
+: 1754461817:0;./shiftline.sh test
+: 1754461831:0;./shiftline.sh test 10
+: 1754461836:0;./shiftline.sh test 1
+: 1754461840:0;nvim shiftline.sh
+: 1754461898:0;touch empty
+: 1754461881:0;wc -l empty
+: 1754461886:0;rm empty
+: 1754461888:0;nvim shiftline.sh
+: 1754461989:0;./shiftline.sh test 1
+: 1754462046:0;nvim shiftline.sh
+: 1754462060:0;./shiftline.sh test 1
+: 1754462076:0;nvim shiftline.sh
+: 1754462096:0;./shiftline.sh test 1
+: 1754462130:0;nvim shiftline.sh
+: 1754462140:0;./shiftline.sh test 1
+: 1754462142:0;nvim shiftline.sh
+: 1754462150:0;./shiftline.sh test 1
+: 1754462196:0;nvim shiftline.sh
+: 1754462205:0;./shiftline.sh test 1
+: 1754462214:0;nvim shiftline.sh
+: 1754462223:0;./shiftline.sh test 1
+: 1754462227:0;./shiftline.sh test1 1
+: 1754462253:0;nvim shiftline.sh
+: 1754462262:0;./shiftline.sh test1 1
+: 1754462264:0;clear
+: 1754462376:0;nvim shiftline.sh
+: 1754462510:0;touch output.txt
+: 1754462516:0;touch input.txt
+: 1754462521:0;nvim input.txt
+: 1754462533:0;clear
+: 1754462545:0;./shiftline.sh input.txt output.txt 3
+: 1754462563:0;nvim shiftline.sh
+: 1754462665:0;./shiftline.sh input.txt output.txt 3
+: 1754462673:0;clear
+: 1754462695:0;nvim shiftline.sh
+: 1754462698:0;./shiftline.sh input.txt output.txt 3
+: 1754462703:0;nvim shiftline.sh
+: 1754462796:0;./shiftline.sh input.txt output.txt 3
+: 1754462801:0;nvim shiftline.sh
+: 1754462865:0;./shiftline.sh input.txt output.txt 3
+: 1754462848:0;nvim shiftline.sh
+: 1754462903:0;./shiftline.sh input.txt output.txt 3
+: 1754462915:0;cat output.txt
+: 1754462918:0;./shiftline.sh input.txt output.txt 3
+: 1754462949:0;nvim shiftline.sh
+: 1754462962:0;./shiftline.sh input.txt output.txt 3
+: 1754463294:0;nvim shiftline.sh
+: 1754463299:0;./shiftline.sh input.txt output.txt 3
+: 1754463330:0;nvim shiftline.sh
+: 1754463366:0;./shiftline.sh input.txt output.txt 3
+: 1754463353:0;cat output.txt
+: 1754463356:0;./shiftline.sh input.txt output.txt 3
+: 1754463359:0;nvim shiftline.sh
+: 1754463384:0;./shiftline.sh input.txt output.txt 3
+: 1754463388:0;cat output.txt
+: 1754463396:0;./shiftline.sh input.txt output.txt 6
+: 1754463398:0;cat output.txt
+: 1754463411:0;clear
+: 1754463414:0;nvim shiftline.sh
+: 1754463421:0;clear
+: 1754472597:0;ls
+: 1754472602:0;rm test
+: 1754472603:0;clear
+: 1754472605:0;cat input.txt
+: 1754472617:0;./shiftline.sh input.txt output.txt 8
+: 1754472626:0;./shiftline.sh i output.txt 8
+: 1754472629:0;clear
+: 1754472653:0;ps aux
+: 1754472661:0;clear
+: 1754472774:0;nvim cron.sh
+: 1754472800:0;chmod +100 cron.sh
+: 1754472803:0;./cron.sh
+: 1754472809:0;nvim cron.sh
+: 1754472834:0;./cron.sh
+: 1754472838:0;nvim cron.sh
+: 1754472852:0;./cron.sh
+: 1754472857:0;history
+: 1754472861:0;clear
+: 1754472882:0;history
+: 1754472883:0;clear
+: 1754472888:0;nvim cron.sh
+: 1754472909:0;./cron.sh
+: 1754473078:0;nvim shiftline.sh
+: 1754473091:0;nvim cron.sh
+: 1754473101:0;./cron.sh
+: 1754473109:0;cat shiftline.sh
+: 1754473116:0;cat cron.sh
+: 1754473291:0;nvim .zshrc
+: 1754473337:0;source .zshrc
+: 1754473363:0;nvim .zshrc
+: 1754473377:0;source .zshrc
+: 1754473407:0;history -i
+: 1754473431:0;bash
+: 1754473430:0;clear
+: 1754473487:0;nvim .zshrc
+: 1754473527:0;clear
+: 1754473529:0;ls
+: 1754473533:0;bash
+: 1754473669:0;clear
+: 1754473702:0;./cron.sh
+: 1754473689:0;nvim .zshrc
+: 1754473694:0;nvim cron.sh
+: 1754473840:0;nvim .bashrc
+: 1754473856:0;cat .zshrc
+: 1754473859:0;nvim .bashrc
+: 1754473865:0;bash
+: 1754473882:0;clear
+: 1754473911:0;nvim .zshrc
+: 1754473940:0;source .zshrc
+: 1754473945:0;history
+: 1754473959:0;clear
+: 1754473967:0;nvim cron.sh
+: 1754473996:0;./cron.sh
+: 1754474004:0;clear
+: 1754474006:0;nvim cron.sh
+: 1754474015:0;./cron.sh
+: 1754474024:0;nvim cron.sh
+: 1754474035:0;./cron.sh
+: 1754474059:0;nvim cron.sh
+: 1754474064:0;./cron.sh
+: 1754474061:0;history
+: 1754474071:0;clear
+: 1754474075:0;bash
+: 1754474092:0;./cron.sh
+: 1754474099:0;nvim cron.sh
+: 1754474189:0;./cron.sh
+: 1754474232:0;clear
+: 1754474235:0;nvim cron.sh
+: 1754474246:0;./cron.sh
+: 1754474266:0;nvim cron.sh
+: 1754474285:0;./cron.sh
+: 1754474289:0;nvim cron.sh
+: 1754474299:0;./cron.sh
+: 1754474304:0;nvim cron.sh
+: 1754474508:0;echo $HISTFILE
+: 1754474544:0;git --config user.username "rithvik-thonukunuri-1385"
+: 1754474583:0;git config --global user.name "rithvik-thonukunuri-1385"
+: 1754474598:0;git config --global user.email "rithvikthonukunuri@bizacuity.com"
+: 1754474615:0;clear
+: 1754474625:0;git config --list
+: 1754474629:0;clear
+: 1754474854:0;history -i
+: 1754474859:0;clear
+: 1754474894:0;history --help
+: 1754474896:0;history -d 5
+: 1754474924:0;history 
+: 1754474908:0;clear
+: 1754474919:0;nvim .zsh_history
+: 1754474940:0;git config
+: 1754474968:0;git config --global --unset user.password
+: 1754474975:0;git config --list
+: 1754474978:0;clear
+: 1754475011:0;nvim cron.sh
+: 1754475098:0;clear
+: 1754475100:0;git remote add origin https://github.com/rithvik-thonukunuri-1385/assignment_task_13.git
+: 1754475175:0;./cron.sh
+: 1754475179:0;nvim cron.sh
+: 1754475277:0;cat shiftline.sh
+: 1754475333:0;./cron.sh
+: 1754475380:0;git config --global init.defaultBranch main
+: 1754475383:0;./cron.sh
+: 1754475405:0;ls
+: 1754475388:0;cd test
+: 1754475394:0;rm -rf .git
+: 1754475395:0;clear
+: 1754475397:0;cd ../
+: 1754475400:0;./cron.sh
+: 1754475407:0;cd test
+: 1754475408:0;ls
+: 1754475409:0;clear
+: 1754475418:0;nvim cron.sh
+: 1754475515:0;./cron.sh
+: 1754475565:0;ls
+: 1754475548:0;cat history.txt
+: 1754475549:0;clear
+: 1754475860:0;cat .ssh/id_rsa.pub
+: 1754475893:0;clear
+: 1754475900:0;nvim cron.sh
+: 1754475949:0;./cron.sh
+: 1754476026:0;ssh -T git@github.com
+: 1754476035:0;clear
+: 1754476667:0;./cron.sh
+: 1754476685:0;clear
+: 1754477097:0;nvim cron.sh
+: 1754477159:0;./cron.sh
+: 1754477168:0;clear
+: 1754477229:0;git remote -v
+: 1754477212:0;cd test
+: 1754477215:0;git remote -v
+: 1754477233:0;git remote show origin
+: 1754477248:0;clear
+: 1754477265:0;cd ../
+: 1754477267:0;cd exp
+: 1754477270:0;mkdir exp
+: 1754477271:0;cd exp
+: 1754477273:0;git init
+: 1754477290:0;git add remote origin git@github.com:rithvik-thonukunuri-1385/assignment_task_13.git
+: 1754477300:0;git remote add origin git@github.com:rithvik-thonukunuri-1385/assignment_task_13.git
+: 1754477306:0;git remote -v
+: 1754477314:0;git add .
+: 1754477316:0;clear
+: 1754477318:0;git status
+: 1754477323:0;cd ../
+: 1754477325:0;rm -rf exp
+: 1754477327:0;clear
+: 1754477333:0;cd test
+: 1754477336:0;cd ../
+: 1754477340:0;nvim cron.sh
+: 1754477386:0;clear
+: 1754477427:0;nvim cron.sh
+: 1754477434:0;cd ../
+: 1754477437:0;nvim test.sh
+: 1754477463:0;chmod +100 test.sh
+: 1754477468:0;./test.sh
+: 1754477478:0;history
+: 1754477480:0;./test.sh
+: 1754477498:0;nvim test.sh
+: 1754477519:0;./test.sh
+: 1754477660:0;rm test.sh
+: 1754477661:0;clear
+: 1754477688:0;rm test
+: 1754477693:0;rm -rf test
+: 1754477705:0;clear
+: 1754477708:0;./cron.sh
+: 1754477726:0;cat test/history.txt
+: 1754477741:0;nvim cron.sh
+: 1754477754:0;cat ~/.zsh_history
+: 1754477890:0;nvim cron.sh
+: 1754477898:0;clear
+: 1754477914:0;./cron.sh
+: 1754477924:0;rm -rf test
+: 1754477925:0;./cron.sh
+: 1754477930:0;clear
+: 1754477948:0;nvim test.sh
+: 1754477980:0;./test.sh
+: 1754477983:0;chmod +100 test.sh
+: 1754477984:0;./test.sh
+: 1754477991:0;cat test.txt
+: 1754477994:0;clear
+: 1754478000:0;cat test.sh
+: 1754478026:0;nvim cron.sh
+: 1754478023:0;./cron.sh
