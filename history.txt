@@ -483,3 +483,5 @@
 : 1754484066:0;./shiftline.sh input.txt output.txt 8
 : 1754484068:0;clear
 : 1754484541:0;free -h
+: 1754484603:0;df 
+: 1754484608:0;clear
