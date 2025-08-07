@@ -539,3 +539,5 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null\
 : 1754588156:0;terraform plan -help
 : 1754588157:0;clear
 : 1754588186:0;terraform -install-autocomplete
+: 1754591079:0;clear
+: 1754591085:0;nvim .
