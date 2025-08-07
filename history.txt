@@ -519,3 +519,4 @@
 : 1754574728:0;clear
 : 1754574730:0;ssh -i oracle_aws.pem ec2-user@51.20.126.165
 : 1754574828:0;clear
+: 1754575103:0;ssh -i oracle_aws.pem ec2-user@16.171.112.200
