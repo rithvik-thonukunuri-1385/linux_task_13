@@ -507,3 +507,7 @@
 : 1754546983:0;top -bn1
 : 1754546991:0;nvim cron.sh
 : 1754547006:0;clear
+: 1754547339:0;exit
+: 1754574544:0;ls
+: 1754574585:0;cp /mnt/c/Users/rithvik.thonukunuri/Downloads/oracle_aws.pem oracle_aws.pem
+: 1754574587:0;clear
