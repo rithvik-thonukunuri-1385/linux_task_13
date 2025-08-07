@@ -511,3 +511,11 @@
 : 1754574544:0;ls
 : 1754574585:0;cp /mnt/c/Users/rithvik.thonukunuri/Downloads/oracle_aws.pem oracle_aws.pem
 : 1754574587:0;clear
+: 1754574640:0;ssh -i oracle_aws.pem ec2-user@51.20.126.165
+: 1754574674:0;clear
+: 1754574683:0;ssh -i oracle_aws.pem ec2-user@51.20.126.165
+: 1754574721:0;chmod 400 oracle_aws.pem
+: 1754574743:0;ls -la
+: 1754574728:0;clear
+: 1754574730:0;ssh -i oracle_aws.pem ec2-user@51.20.126.165
+: 1754574828:0;clear
