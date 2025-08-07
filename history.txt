@@ -534,3 +534,8 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null\
 : 1754588033:0;echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 : 1754588038:0;sudo apt update
 : 1754588066:0;sudo apt install terraform
+: 1754588130:0;clear
+: 1754588151:0;terraform -help
+: 1754588156:0;terraform plan -help
+: 1754588157:0;clear
+: 1754588186:0;terraform -install-autocomplete
