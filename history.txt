@@ -550,3 +550,8 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null\
 : 1754634044:0;docker ls
 : 1754634049:0;docker ps
 : 1754634051:0;clear
+: 1754635952:0;cp /mnt/c/Users/rithvik.thonukunuri/Downloads/oracle_aws.pem oracle_aws.pem
+: 1754635954:0;clear
+: 1754635974:0;ssh -i oracle_aws.pem ec2-user@51.20.116.22
+: 1754635984:0;chmod 400 oracle_aws.pem
+: 1754635985:0;ssh -i oracle_aws.pem ec2-user@51.20.116.22
