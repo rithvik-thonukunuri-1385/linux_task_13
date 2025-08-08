@@ -546,3 +546,7 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null\
 : 1754633242:0;rm oracle_aws.pem rithvik_aws.pem
 : 1754633246:0;clear
 : 1754633247:0;ls
+: 1754634039:0;clear
+: 1754634044:0;docker ls
+: 1754634049:0;docker ps
+: 1754634051:0;clear
