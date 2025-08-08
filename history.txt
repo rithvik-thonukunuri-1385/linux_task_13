@@ -555,3 +555,4 @@ sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null\
 : 1754635974:0;ssh -i oracle_aws.pem ec2-user@51.20.116.22
 : 1754635984:0;chmod 400 oracle_aws.pem
 : 1754635985:0;ssh -i oracle_aws.pem ec2-user@51.20.116.22
+: 1754639458:0;clear
