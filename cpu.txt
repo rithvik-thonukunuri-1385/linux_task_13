@@ -1,36 +1,36 @@
-top - 07:45:00 up  2:09,  1 user,  load average: 0.00, 0.00, 0.00
+top - 07:50:02 up  2:14,  1 user,  load average: 0.04, 0.06, 0.02
 Tasks:  29 total,   1 running,  28 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :   7779.2 total,   6662.8 free,    536.6 used,    737.8 buff/cache     
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7242.7 avail Mem 
+MiB Mem :   7779.2 total,   6658.1 free,    537.1 used,    742.1 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7242.2 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   21648  12264   9064 S   0.0   0.2   0:04.60 systemd
+      1 root      20   0   21648  12264   9064 S   0.0   0.2   0:04.71 systemd
       2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.01 init-sy+
       6 root      20   0    3076   1792   1792 S   0.0   0.0   0:00.00 init
-     52 root      19  -1   66748  14844  13820 S   0.0   0.2   0:49.15 systemd+
-    101 root      20   0   25136   6144   4864 S   0.0   0.1   0:00.46 systemd+
-    111 systemd+  20   0   21456  12416  10368 S   0.0   0.2   0:00.78 systemd+
-    112 systemd+  20   0   91024   7680   6784 S   0.0   0.1   0:02.65 systemd+
+     52 root      19  -1   66748  14796  13772 S   0.0   0.2   0:50.39 systemd+
+    101 root      20   0   25136   6144   4864 S   0.0   0.1   0:00.47 systemd+
+    111 systemd+  20   0   21456  12416  10368 S   0.0   0.2   0:00.81 systemd+
+    112 systemd+  20   0   91024   7680   6784 S   0.0   0.1   0:02.72 systemd+
     178 root      20   0    4236   2432   2304 S   0.0   0.0   0:00.05 cron
-    179 message+  20   0    9536   4736   4224 S   0.0   0.1   0:03.62 dbus-da+
-    195 root      20   0   17968   8320   7424 S   0.0   0.1   0:01.27 systemd+
-    200 root      20   0 1756096  12672  10368 S   0.0   0.2   0:00.42 wsl-pro+
+    179 message+  20   0    9536   4736   4224 S   0.0   0.1   0:03.72 dbus-da+
+    195 root      20   0   17968   8320   7424 S   0.0   0.1   0:01.30 systemd+
+    200 root      20   0 1756096  12800  10368 S   0.0   0.2   0:00.44 wsl-pro+
     223 root      20   0    3160   1920   1792 S   0.0   0.0   0:00.00 agetty
-    233 syslog    20   0  222508   5504   4480 S   0.0   0.1   0:00.53 rsyslogd
-    236 root      20   0 2171456  45680  32512 S   0.0   0.6   0:14.69 contain+
+    233 syslog    20   0  222508   5504   4480 S   0.0   0.1   0:00.54 rsyslogd
+    236 root      20   0 2171456  45680  32512 S   0.0   0.6   0:15.20 contain+
     239 root      20   0    3116   1792   1664 S   0.0   0.0   0:00.02 agetty
     245 root      20   0  107032  21632  12544 S   0.0   0.3   0:00.13 unatten+
-    338 root      20   0 2269904  73572  52864 S   0.0   0.9   0:02.16 dockerd
+    338 root      20   0 2269904  73572  52864 S   0.0   0.9   0:02.23 dockerd
     613 root      20   0    3064    896    896 S   0.0   0.0   0:00.00 Session+
-    614 root      20   0    3080   1024   1024 S   0.0   0.0   0:01.09 Relay(6+
+    614 root      20   0    3080   1024   1024 S   0.0   0.0   0:01.14 Relay(6+
     615 rithvik   20   0   12048   8228   5120 S   0.0   0.1   0:01.25 zsh
     616 root      20   0    6664   4224   3584 S   0.0   0.1   0:00.01 login
-    619 rithvik   20   0   20304  11264   9216 S   0.0   0.1   0:00.62 systemd
+    619 rithvik   20   0   20304  11264   9216 S   0.0   0.1   0:00.64 systemd
     620 rithvik   20   0   21152   3424   1792 S   0.0   0.0   0:00.00 (sd-pam)
     635 rithvik   20   0    7936   6204   4224 S   0.0   0.1   0:00.07 zsh
-   3109 rithvik   20   0   12472   9232   7680 S   0.0   0.1   0:14.12 ssh
-   4633 root      20   0    6956   3720   3200 S   0.0   0.0   0:00.00 cron
-   4634 rithvik   20   0    2800   1536   1536 S   0.0   0.0   0:00.00 sh
-   4635 rithvik   20   0    4752   3200   3072 S   0.0   0.0   0:00.00 cron.sh
-   4637 rithvik   20   0    9284   5120   3072 R   0.0   0.1   0:00.00 top
+   3109 rithvik   20   0   12472   9232   7680 S   0.0   0.1   0:14.90 ssh
+   4779 root      20   0    6956   3720   3200 S   0.0   0.0   0:00.00 cron
+   4780 rithvik   20   0    2800   1536   1536 S   0.0   0.0   0:00.00 sh
+   4781 rithvik   20   0    4752   3328   3072 S   0.0   0.0   0:00.00 cron.sh
+   4783 rithvik   20   0    9284   5120   3072 R   0.0   0.1   0:00.00 top
