@@ -1,35 +1,35 @@
-top - 08:30:02 up  2:54,  1 user,  load average: 0.00, 0.00, 0.00
+top - 08:35:01 up  2:59,  1 user,  load average: 0.00, 0.00, 0.00
 Tasks:  28 total,   1 running,  27 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.8 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :   7779.2 total,   6623.9 free,    537.8 used,    776.3 buff/cache     
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7241.5 avail Mem 
+MiB Mem :   7779.2 total,   6619.6 free,    538.0 used,    780.4 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7241.2 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   21648  12264   9064 S   0.0   0.2   0:05.66 systemd
+      1 root      20   0   21648  12264   9064 S   0.0   0.2   0:05.80 systemd
       2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.01 init-sy+
       6 root      20   0    3076   1792   1792 S   0.0   0.0   0:00.00 init
-     52 root      19  -1   66880  15024  14000 S   0.0   0.2   1:02.16 systemd+
+     52 root      19  -1   66880  14996  13972 S   0.0   0.2   1:03.36 systemd+
     101 root      20   0   25136   6144   4864 S   0.0   0.1   0:00.55 systemd+
-    111 systemd+  20   0   21456  12416  10368 S   0.0   0.2   0:00.98 systemd+
-    112 systemd+  20   0   91024   7680   6784 S   0.0   0.1   0:03.61 systemd+
+    111 systemd+  20   0   21456  12416  10368 S   0.0   0.2   0:01.00 systemd+
+    112 systemd+  20   0   91024   7680   6784 S   0.0   0.1   0:03.73 systemd+
     178 root      20   0    4236   2432   2304 S   0.0   0.0   0:00.07 cron
-    179 message+  20   0    9536   4736   4224 S   0.0   0.1   0:04.55 dbus-da+
-    195 root      20   0   17968   8320   7424 S   0.0   0.1   0:01.54 systemd+
-    200 root      20   0 1756096  13056  10368 S   0.0   0.2   0:00.52 wsl-pro+
+    179 message+  20   0    9536   4736   4224 S   0.0   0.1   0:04.67 dbus-da+
+    195 root      20   0   17968   8320   7424 S   0.0   0.1   0:01.56 systemd+
+    200 root      20   0 1756096  13056  10368 S   0.0   0.2   0:00.54 wsl-pro+
     223 root      20   0    3160   1920   1792 S   0.0   0.0   0:00.00 agetty
-    233 syslog    20   0  222508   5504   4480 S   0.0   0.1   0:00.65 rsyslogd
-    236 root      20   0 2171456  45680  32512 S   0.0   0.6   0:19.29 contain+
+    233 syslog    20   0  222508   5504   4480 S   0.0   0.1   0:00.66 rsyslogd
+    236 root      20   0 2171456  45680  32512 S   0.0   0.6   0:19.84 contain+
     239 root      20   0    3116   1792   1664 S   0.0   0.0   0:00.02 agetty
     245 root      20   0  107032  21632  12544 S   0.0   0.3   0:00.13 unatten+
-    338 root      20   0 2269904  73572  52864 S   0.0   0.9   0:02.73 dockerd
+    338 root      20   0 2269904  73572  52864 S   0.0   0.9   0:02.79 dockerd
     613 root      20   0    3064    896    896 S   0.0   0.0   0:00.00 Session+
     614 root      20   0    3080   1024   1024 S   0.0   0.0   0:01.14 Relay(6+
     615 rithvik   20   0   12048   8228   5120 S   0.0   0.1   0:01.30 zsh
     616 root      20   0    6664   4224   3584 S   0.0   0.1   0:00.01 login
-    619 rithvik   20   0   20304  11264   9216 S   0.0   0.1   0:00.78 systemd
+    619 rithvik   20   0   20304  11264   9216 S   0.0   0.1   0:00.79 systemd
     620 rithvik   20   0   21152   3424   1792 S   0.0   0.0   0:00.00 (sd-pam)
     635 rithvik   20   0    7936   6204   4224 S   0.0   0.1   0:00.07 zsh
-   5935 root      20   0    6956   3720   3200 S   0.0   0.0   0:00.00 cron
-   5936 rithvik   20   0    2800   1536   1536 S   0.0   0.0   0:00.00 sh
-   5937 rithvik   20   0    4752   3328   3072 S   0.0   0.0   0:00.00 cron.sh
-   5939 rithvik   20   0    9284   5120   3072 R   0.0   0.1   0:00.01 top
+   6073 root      20   0    6956   3720   3200 S   0.0   0.0   0:00.00 cron
+   6074 rithvik   20   0    2800   1536   1536 S   0.0   0.0   0:00.00 sh
+   6075 rithvik   20   0    4752   3328   3072 S   0.0   0.0   0:00.00 cron.sh
+   6077 rithvik   20   0    9284   5120   3072 R   0.0   0.1   0:00.00 top
